@@ -4,12 +4,12 @@
 	
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
-	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	
 	<name>maven-web-application</name>
 
-	<description>Maven Web Project for Java Project</description>
+	<description>Maven Web Project for Java Programming Language</description>
 
 	<organization>
 		<name>Mithun Technologies</name>
@@ -24,6 +24,12 @@
 		 <sonar.host.url>http://3.109.186.251:9992/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password> 
+=======
+		<sonar.host.url>http://15.206.123.121:8082/</sonar.host.url>
+                <sonar.login>admin</sonar.login>
+		<sonar.password>admin</sonar.password>
+             
+>>>>>>> 3a5b0b1090edbfc6ad363acd327258fe2f5f4b4f
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -98,13 +104,21 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
+<<<<<<< HEAD
 	      <url>http://65.1.130.211:9992/Anil/repository/google-release/</url>
+=======
+	      <url>http://65.0.124.30:9992/Anil/repository/google-release/</url>
+>>>>>>> 3a5b0b1090edbfc6ad363acd327258fe2f5f4b4f
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+<<<<<<< HEAD
 	      <url>http://65.1.130.211:9992/Anil/repository/google-snapshot/</url>
+=======
+	      <url>http://65.0.124.30:9992/Anil/repository/google-snapshot/</url>
+>>>>>>> 3a5b0b1090edbfc6ad363acd327258fe2f5f4b4f
 	    </snapshotRepository>
 	    
 	</distributionManagement>
